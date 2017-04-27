@@ -54,6 +54,12 @@ hello = tf.constant('Hello, TensorFlow!') sess = tf.Session() print(sess.run(hel
 Hello, TensorFlow!
 ```
 
+BONUS: Yo can also try:
+```
+curl -sSL https://github.com/fchollet/keras/raw/master/examples/mnist_mlp.py | python
+```
+(from [Get Started With Keras For Beginners](http://ermaker.github.io/blog/2015/09/08/get-started-with-keras-for-beginners.html))
+
 4. Finally, **start RStudio and install [Tensorflow package](https://rstudio.github.io/tensorflow/)**:
 
 ```
